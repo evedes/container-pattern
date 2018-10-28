@@ -1,10 +1,20 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.css';
+
 import './index.css';
-import SuperHeroList from './SuperHeroList';
+import SuperHeroList1 from './SuperHeroList1';
+import SuperHeroList2 from './SuperHeroList2';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<SuperHeroList />, document.getElementById('root'));
+ReactDOM.render(
+<Fragment>
+  <SuperHeroList1 />
+  <SuperHeroList2 />
+</Fragment>
+
+
+, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
