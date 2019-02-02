@@ -1,5 +1,10 @@
-I've done this repo to show some important stuff about Container Pattern in React.
+### Container Pattern
 
-You can read my article "React Container Pattern"
+Read the article
 
-_evedes Oct 2018
+[How to develop your React superpowers with the Container Pattern
+](https://medium.freecodecamp.org/react-superpowers-container-pattern-20d664bdae65)
+
+![Alt text](/img/preview.png?raw=true "Optional Title")
+
+
